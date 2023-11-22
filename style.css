@@ -529,7 +529,7 @@ header.sticky{
     background: #3280b4;
     font-size: 18px;
     border-radius: 5px;
-    color: #8b1b1b;
+    color: rgb(0, 0, 0);
 }
 .comment-box button:hover{
     background-color: #54b8fa;
