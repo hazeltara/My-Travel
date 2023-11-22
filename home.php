@@ -141,7 +141,6 @@ include("config.php");
             </form>
         </div>
     </section>
-    <!--link to js-->
 
     <br>
     <br>
