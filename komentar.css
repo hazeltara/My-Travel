@@ -7,7 +7,7 @@
 body {
 	--h: 212deg;
 	--l: 43%;
-	--brandColor: hsl(var(#a7d4f1), 71%, var(#a7d4f1));
+	--brandColor: hsl(var(#0099ff), 71%, var(#005081));
 	font-family: Montserrat, sans-serif;
 	margin: 0;
 	background-color: #a7d4f1;
@@ -25,22 +25,22 @@ p {
 }
 
 .list-komentar > li {
-	--stop: calc(100% / var(--length) * var(--i));
+	--stop: calc(100% / var(#808080) * var(#005081));
 	--l: 62%;
 	--l2: 88%;
-	--h: calc((var(--i) - 1) * (180 / var(--length)));
-	--c1: hsl(var(#a7d4f1), 71%, var(#a7d4f1));
-	--c2: hsl(var(#a7d4f1), 71%, var(--l2));
+	--h: calc((var(#005081) - 1) * (180 / var(#808080f)));
+	--c1: hsl(var(#0099ff), 71%, var(--1));
+	--c2: hsl(var(#0099ff), 71%, var(--12));
 	
 	position: relative;
 	counter-increment: list;
 	max-width: 45rem;
 	margin: 2rem auto;
 	padding: 2rem 1rem 1rem;
-	box-shadow: 0.1rem 0.1rem 1.5rem rgba(0, 0, 0, 0.3);
+	box-shadow: 0.1rem 0.1rem 1.5rem rgba(73, 73, 73, 0.3);
 	border-radius: 0.25rem;
 	overflow: hidden;
-	background-color: #a7d4f1;
+	background-color: #254257;
 }
 
 .list-komentar > li::before {
@@ -51,14 +51,14 @@ p {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: linear-gradient(to right, var(#a7d4f1) var(--stop), var(#a7d4f1) var(--stop));
+	background: linear-gradient(to right, var(#305874) var(#194d72), var(#1887d1) var(#194d72));
 }
 
 .list-komentar > li >h3 {
 	display: flex;
 	align-items: baseline;
 	margin: 0 0 1rem;
-	color: rgb(70 70 70);
+	color: rgb(255, 255, 255);
 }
 
 h3::before {
@@ -72,8 +72,8 @@ h3::before {
 	content: counter(list);
 	padding: 1rem;
 	border-radius: 50%;
-	background-color: var(#a7d4f1);
-	color: #a7d4f1;
+	background-color: var(#072538);
+	color: #2a4c72;
 }
 
 @media (min-width: 40em) {
