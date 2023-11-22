@@ -11,7 +11,7 @@ body {
   box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.06);
 }
 
-* { // make it sexy
+* { 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizelegibility;
@@ -27,14 +27,14 @@ li {
   font-size: 16px;
   line-height: 20px;
   
-  &:before {
+ .before{
     content: '';
     display: block;
     height: 42px;
     width: 42px;
     border-radius: 50%;
     border: 2px solid #ddd;
-    position: absolute; // yeah, you have to manually position it based on the text size, line height, etc. (in the parent li style). it's not the smarest solution 
+    position: absolute; 
     top: -12px;
     left: -46px;
   }
