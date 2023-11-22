@@ -301,6 +301,143 @@ header.sticky{
     width: 200pxpx;
 }
 
+.kuliner-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 5rem;
+}
+.kcol-content{
+    position: relative;
+}
+.kcol-content img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: brightness(80%);
+    transition: all .3s cubic-bezier(.495, .05, .55, .95);
+    will-change: filter;
+}
+.kcol-content h5{
+    position: absolute;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    left: 15px;
+    bottom: 60px;
+}
+.kcol-content p{
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    left: 15px;
+    bottom: 30px;
+    letter-spacing: 2px;
+}
+.kcol-content img:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.ktitle h4{
+    font-size: var(--h2-font);
+    line-height: 1.1;
+    width: 200pxpx;
+    font-family: 'PT Serif Caption', serif;
+}
+
+.modern-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 5rem;
+}
+.dcol-content{
+    position: relative;
+}
+.dcol-content img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: brightness(80%);
+    transition: all .3s cubic-bezier(.495, .05, .55, .95);
+    will-change: filter;
+}
+.dcol-content h5{
+    position: absolute;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    left: 15px;
+    bottom: 60px;
+}
+.dcol-content p{
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    left: 15px;
+    bottom: 30px;
+    letter-spacing: 2px;
+}
+.dcol-content img:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.dtitle h4{
+    font-size: var(--h2-font);
+    line-height: 1.1;
+    width: 200pxpx;
+    font-family: 'PT Serif Caption', serif;
+}
+.tradisional-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 5rem;
+}
+.tcol-content{
+    position: relative;
+}
+.tcol-content img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: brightness(80%);
+    transition: all .3s cubic-bezier(.495, .05, .55, .95);
+    will-change: filter;
+}
+.tcol-content h5{
+    position: absolute;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    left: 15px;
+    bottom: 60px;
+}
+.tcol-content p{
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    left: 15px;
+    bottom: 30px;
+    letter-spacing: 2px;
+}
+.tcol-content img:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.ntitle h4{
+    font-size: var(--h2-font);
+    line-height: 1.1;
+    width: 200pxpx;
+    font-family: 'PT Serif Caption', serif;
+}
+
 .misteri-content{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(340px, auto));
