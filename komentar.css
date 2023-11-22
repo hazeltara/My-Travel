@@ -10,7 +10,7 @@ body {
 	--brandColor: hsl(var(--h), 71%, var(--l));
 	font-family: Montserrat, sans-serif;
 	margin: 0;
-	background-color: whitesmoke;
+	background-color: #a7d4f1;
 }
 
 p {
@@ -40,7 +40,7 @@ p {
 	box-shadow: 0.1rem 0.1rem 1.5rem rgba(0, 0, 0, 0.3);
 	border-radius: 0.25rem;
 	overflow: hidden;
-	background-color: white;
+	background-color: #a7d4f1;
 }
 
 .list-komentar > li::before {
@@ -73,7 +73,7 @@ h3::before {
 	padding: 1rem;
 	border-radius: 50%;
 	background-color: var(--c1);
-	color: white;
+	color: #a7d4f1;
 }
 
 @media (min-width: 40em) {
