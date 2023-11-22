@@ -9,6 +9,7 @@ include("config.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Travel Test</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="komentar.css">
 
     <link rel="stylesheet"
     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
@@ -128,21 +129,6 @@ include("config.php");
         </div>
     </section>
 
-    <ol>
-    <?php
-    $comments = mysqli_query($db, "SELECT * FROM komentar ORDER BY id DESC LIMIT 3");
-
-    $records = mysqli_num_rows($comments);
-    while($row_sections = mysqli_fetch_array($comments))
-    {
-        echo $row_sections['name'];
-        echo $row_sections['email'];
-        echo $row_sections['komentar'];
-        echo "<br>";
-    }
-    ?>
-    </ol>
-
     <!--feedback-->
     <section class="feedback" id="feedback">
         <div class="comment-box">
@@ -157,7 +143,40 @@ include("config.php");
     </section>
     <!--link to js-->
 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
+    <!--komentar-->
+    <section class="komentar" id="komentar">
+        <ol class="list-komentar" style="--length: 5" role="list">
+            <?php
+            $comments = mysqli_query($db, "SELECT * FROM komentar ORDER BY id DESC LIMIT 3");
+
+            $records = mysqli_num_rows($comments);
+            while($row_sections = mysqli_fetch_array($comments))
+            {
+                ?>
+                <!-- echo $row_sections['name'];
+                echo $row_sections['email'];
+                echo $row_sections['komentar'];
+                echo "<br>"; -->
+                <li style="--i: 1">
+                    <h3><?php echo $row_sections['name'] ?></h3>
+                    <p><?php echo $row_sections['komentar'] ?></p>
+                </li>
+                <?php
+            }
+            ?>
+        </ol>
+    </section>
+    <!--link to js-->
 
     <script src="script.js"></script>
     
