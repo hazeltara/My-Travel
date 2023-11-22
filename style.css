@@ -1,0 +1,400 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'PT Serif Caption', serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+:root{
+    --bg-color: #a7d4f1;
+    --text-color: #221314;
+    --second-color: #354149;
+    --main-color: #54b8fa;
+    --big-font: 6rem;
+    --h2-font: 3rem;
+    --p-font: 1.1rem;
+}
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 30px 18%;
+    transition: ease .40s;
+}
+.logo{
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: white;
+}
+.navbar{
+    display: flex;
+   
+}
+.navbar a{
+    color: rgb(255, 255, 255);
+    font-size: var(--text-color);
+    font-weight: 500;
+    padding: 10px 22px;
+    border-radius: 4px;
+    transition: ease .40s;
+}
+.navbar a:hover{
+    background: var(--bg-color);
+    color: var(--text-color);
+    box-shadow: 5px 10px 30px;
+    border-radius: 4px;
+}
+#menu-icon{
+    color: white;
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+
+section{
+    padding: 80px 18%;
+}
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(ubur.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+.home-text h1{
+    font-size: var(--big-font);
+    line-height: 1.2;
+    color: var(--bg-color);
+    font-family: 'PT Serif', serif;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+.home-text p{
+    color: #ffffffbf;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+    margin-bottom: 50px;
+}
+.home-btn{
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px 30px;
+    background: rgba(24, 88, 117, 0.749);
+    color: var(--main-color);
+    border-radius: 4px;
+    transition: ease .40s;
+}
+.home-btn:hover{
+    background: var(--bg-color);
+    transform: scale(1.1);
+}
+header.sticky{
+    background: var(--bg-color);
+    padding: 10px 18%;
+    box-shadow: rgba(34, 64, 109, 0.1) 0px 10 px 10 px -10px;
+}
+.sticky .logo{
+    color: var(--text-color);
+}
+.sticky .navbar a{
+    color: var(--text-color);
+}
+
+.text h2{
+    font-size: var(--h2-font);
+    line-height: 1.1;
+}
+.row-items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+.category-box{
+    background: var(--bg-color);
+    border: 1px solid #000000;
+    padding: 50px 10px;
+    border-radius: 4px;
+    transition: all 1s ease 0s;
+    cursor: pointer;
+}
+.category-img img{
+    height: 85px;
+    width: 85px;
+    padding: 15px;
+    background: var(--bg-color);
+    box-shadow: 5px 10px 30px rgba(24, 88, 117, 0.749);
+    border-radius: 4px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.category-box h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.category-box p{
+    font-size: 15px;
+    color: var(--second-color);
+}
+.category-box:hover{
+    box-shadow: 5px 30pxx 56.127px rgba(24, 88, 117, 0.749);
+    border: 1px solid transparent;
+    transform: translateY(-3px);
+}
+
+.destination-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 5rem;
+}
+.col-content{
+    position: relative;
+}
+.col-content img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: brightness(80%);
+    transition: all .3s cubic-bezier(.495, .05, .55, .95);
+    will-change: filter;
+}
+.col-content h5{
+    position: absolute;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    left: 15px;
+    bottom: 60px;
+}
+.col-content p{
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    left: 15px;
+    bottom: 30px;
+    letter-spacing: 2px;
+}
+.col-content img:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.title h2{
+    font-size: var(--h2-font);
+    line-height: 1.1;
+}
+
+.alam-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 5rem;
+}
+.acol-content{
+    position: relative;
+}
+.acol-content img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: brightness(80%);
+    transition: all .3s cubic-bezier(.495, .05, .55, .95);
+    will-change: filter;
+}
+.acol-content h5{
+    position: absolute;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    left: 15px;
+    bottom: 60px;
+}
+.acol-content p{
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    left: 15px;
+    bottom: 30px;
+    letter-spacing: 2px;
+}
+.acol-content img:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.atitle h4{
+    font-size: var(--h2-font);
+    line-height: 1.1;
+    width: 200pxpx;
+    font-family: 'PT Serif Caption', serif;
+}
+
+.gunung-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 5rem;
+}
+.gcol-content{
+    position: relative;
+}
+.gcol-content img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: brightness(80%);
+    transition: all .3s cubic-bezier(.495, .05, .55, .95);
+    will-change: filter;
+}
+.gcol-content h5{
+    position: absolute;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    left: 15px;
+    bottom: 60px;
+}
+.gcol-content p{
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    left: 15px;
+    bottom: 30px;
+    letter-spacing: 2px;
+}
+.gcol-content img:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.gtitle h4{
+    font-size: var(--h2-font);
+    font-family: 'PT Serif Caption', serif;
+    line-height: 1.1;
+    width: 200pxpx;
+}
+
+.misteri-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 5rem;
+}
+.mcol-content{
+    position: relative;
+}
+.mcol-content img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: brightness(80%);
+    transition: all .3s cubic-bezier(.495, .05, .55, .95);
+    will-change: filter;
+}
+.mcol-content h5{
+    position: absolute;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    left: 15px;
+    bottom: 60px;
+}
+.mcol-content p{
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    left: 15px;
+    bottom: 30px;
+    letter-spacing: 2px;
+}
+.mcol-content img:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.mtitle h4{
+    font-size: var(--h2-font);
+    line-height: 1.1;
+    width: 200pxpx;
+    font-family: 'PT Serif Caption', serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.comment-box{
+    top: 600%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 500px;
+}
+.comment-box h2{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.comment-box input{
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.comment-box input:focus{
+    border: 1px solid black;
+    outline: 0;
+}
+.comment-box textarea{
+    width: 100%;
+    height: 150px;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.comment-box textarea:focus{
+    border: 1px solid rgb(104, 104, 204);
+    outline: 0;
+}
+.comment-box button{
+    border: 0;
+    padding: 10px 30px;
+    background: #3280b4;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #8b1b1b;
+}
+.comment-box button:hover{
+    background-color: #54b8fa;
+    
+}
