@@ -7,7 +7,7 @@
 body {
 	--h: 212deg;
 	--l: 43%;
-	--brandColor: hsl(var(--h), 71%, var(--l));
+	--brandColor: hsl(var(#a7d4f1), 71%, var(#a7d4f1));
 	font-family: Montserrat, sans-serif;
 	margin: 0;
 	background-color: #a7d4f1;
@@ -29,8 +29,8 @@ p {
 	--l: 62%;
 	--l2: 88%;
 	--h: calc((var(--i) - 1) * (180 / var(--length)));
-	--c1: hsl(var(--h), 71%, var(--l));
-	--c2: hsl(var(--h), 71%, var(--l2));
+	--c1: hsl(var(#a7d4f1), 71%, var(#a7d4f1));
+	--c2: hsl(var(#a7d4f1), 71%, var(--l2));
 	
 	position: relative;
 	counter-increment: list;
@@ -51,7 +51,7 @@ p {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: linear-gradient(to right, var(--c1) var(--stop), var(--c2) var(--stop));
+	background: linear-gradient(to right, var(#a7d4f1) var(--stop), var(#a7d4f1) var(--stop));
 }
 
 .list-komentar > li >h3 {
@@ -72,7 +72,7 @@ h3::before {
 	content: counter(list);
 	padding: 1rem;
 	border-radius: 50%;
-	background-color: var(--c1);
+	background-color: var(#a7d4f1);
 	color: #a7d4f1;
 }
 
