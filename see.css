@@ -1,6 +1,5 @@
 .kyakya{
-    width: 300px;
-    border: 15px solid rgb(0, 113, 128);
+    border: 15px solid rgb(165, 226, 235);
     padding: 50px;
     margin: 20px;
 }
@@ -10,7 +9,7 @@
 }
 
 .kyacol-content img {
-    width: 100%;
+    width: 173%;
     height: 500px;
     object-fit: cover;
     border-radius: 15px;
@@ -32,8 +31,7 @@
 }
 
 .wijilan{
-    width: 300px;
-    border: 15px solid rgb(0, 113, 128);
+    border: 15px solid rgb(165, 226, 235);
     padding: 50px;
     margin: 20px;
 }
@@ -43,7 +41,7 @@
 }
 
 .wicol-content img {
-    width: 100%;
+    width: 173%;
     height: 500px;
     object-fit: cover;
     border-radius: 15px;
@@ -65,8 +63,7 @@
 }
 
 .suryakencana{
-    width: 300px;
-    border: 15px solid rgb(0, 113, 128);
+    border: 15px solid rgb(165, 226, 235);
     padding: 50px;
     margin: 20px;
 }
@@ -76,7 +73,7 @@
 }
 
 .sucol-content img {
-    width: 100%;
+    width: 173%;
     height: 500px;
     object-fit: cover;
     border-radius: 15px;
@@ -98,8 +95,7 @@
 }
 
 .tanggerang{
-    width: 300px;
-    border: 15px solid rgb(0, 113, 128);
+    border: 15px solid rgb(165, 226, 235);
     padding: 50px;
     margin: 20px;
 }
@@ -109,7 +105,7 @@
 }
 
 .tacol-content img {
-    width: 100%;
+    width: 173%;
     height: 500px;
     object-fit: cover;
     border-radius: 15px;
@@ -131,8 +127,7 @@
 }
 
 .galabo{
-    width: 300px;
-    border: 15px solid rgb(0, 113, 128);
+    border: 15px solid rgb(165, 226, 235);
     padding: 50px;
     margin: 20px;
 }
@@ -142,7 +137,7 @@
 }
 
 .galabo-content img {
-    width: 100%;
+    width: 173%;
     height: 500px;
     object-fit: cover;
     border-radius: 15px;
@@ -164,10 +159,10 @@
 }
 
 .losari{
-    width: 300px;
-    border: 15px solid rgb(0, 113, 128);
+    border: 15px solid rgb(165, 226, 235);
     padding: 50px;
     margin: 20px;
+    
 }
 
 .losari-content{
@@ -175,7 +170,7 @@
 }
 
 .locol-content img {
-    width: 100%;
+    width: 173%;
     height: 500px;
     object-fit: cover;
     border-radius: 15px;
@@ -192,6 +187,70 @@
 }
 .btn6 {
     background-color:rgb(0, 113, 128) ;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.lawangsewu{
+    border: 15px solid rgb(104, 161, 226);
+    padding: 50px;
+    margin: 20px;
+}
+
+.lawangsewu-content{
+    max-width: 600px;
+}
+
+.lcol-content img {
+    width: 173%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: brightness(80%);
+    transition: all .3s cubic-bezier(.495, .05, .55, .95);
+    will-change: filter;
+}
+
+.lcol-content h2{
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(214, 202, 31);
+}
+.btn7 {
+    background-color:rgb(15, 62, 100) ;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.trunyan{
+    border: 15px solid rgb(104, 161, 226);
+    padding: 50px;
+    margin: 20px;
+}
+
+.trunyan-content{
+    max-width: 600px;
+}
+
+.trcol-content img {
+    width: 173%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: brightness(80%);
+    transition: all .3s cubic-bezier(.495, .05, .55, .95);
+    will-change: filter;
+}
+
+.trcol-content h2{
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(214, 202, 31);
+}
+.btn8 {
+    background-color:rgb(15, 62, 100) ;
     padding: 10px 20px;
     border-radius: 15px;
 }
