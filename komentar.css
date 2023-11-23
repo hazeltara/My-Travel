@@ -29,7 +29,7 @@ p {
 	--l: 62%;
 	--l2: 88%;
 	--h: calc((var(#005081) - 1) * (180 / var(#808080f)));
-	--c1: hsl(var(#0099ff), 71%, var(--1));
+	--c1: hsl(var(#0099ff), 71%, var(#808080));
 	--c2: hsl(var(#0099ff), 71%, var(--12));
 	
 	position: relative;
@@ -51,7 +51,7 @@ p {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: linear-gradient(to right, var(#305874) var(#194d72), var(#1887d1) var(#194d72));
+	background: linear-gradient(to right, var(#0099ff) var(#194d72), var(#1887d1) var(#194d72));
 }
 
 .list-komentar > li >h3 {
