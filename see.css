@@ -349,3 +349,35 @@
     padding: 10px 20px;
     border-radius: 15px;
 }
+
+.tafm{
+    border: 15px solid rgb(104, 161, 226);
+    padding: 50px;
+    margin: 20px;
+}
+
+.tafm-content{
+    max-width: 600px;
+}
+
+.tacol-content img {
+    width: 173%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: brightness(80%);
+    transition: all .3s cubic-bezier(.495, .05, .55, .95);
+    will-change: filter;
+}
+
+.tacol-content h2{
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(214, 202, 31);
+}
+.btn12 {
+    background-color:rgb(15, 62, 100) ;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
