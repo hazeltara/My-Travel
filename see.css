@@ -25,37 +25,73 @@
     font-weight: 700;
     color: rgb(214, 202, 31);
 }
-
-.home-content h2::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background: rgb(255, 255, 255) ;
-    animation: showRight 1s ease forwards;
-    animation-delay: 1.3s;
-}
-
-.home-content p{
-    position: relative;
-    font-size: 15px;
-    margin: 20px 0 40px;
-}
-
-.home-content p::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background: rgb(255, 255, 255) ;
-    animation: showRight 1s ease forwards;
-    animation-delay: 1.6s;
-}
 .btn1 {
+    background-color:rgb(0, 113, 128) ;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.wijilan{
+    width: 300px;
+    border: 15px solid rgb(0, 113, 128);
+    padding: 50px;
+    margin: 20px;
+}
+
+.wijilan-content{
+    max-width: 600px;
+}
+
+.wicol-content img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: brightness(80%);
+    transition: all .3s cubic-bezier(.495, .05, .55, .95);
+    will-change: filter;
+}
+
+.wicol-content h2{
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(214, 202, 31);
+}
+.btn2 {
+    background-color:rgb(0, 113, 128) ;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.suryakencana{
+    width: 300px;
+    border: 15px solid rgb(0, 113, 128);
+    padding: 50px;
+    margin: 20px;
+}
+
+.suryakencana-content{
+    max-width: 600px;
+}
+
+.sucol-content img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: brightness(80%);
+    transition: all .3s cubic-bezier(.495, .05, .55, .95);
+    will-change: filter;
+}
+
+.sucol-content h2{
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(214, 202, 31);
+}
+.btn3 {
     background-color:rgb(0, 113, 128) ;
     padding: 10px 20px;
     border-radius: 15px;
