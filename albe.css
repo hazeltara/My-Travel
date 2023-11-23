@@ -50,13 +50,141 @@
     will-change: filter;
 }
 
-.smcol-content h2{
+.sumba-content h2{
     position: relative;
     font-size: 32px;
     font-weight: 700;
     color: rgb(214, 202, 31);
 }
-.btn2 {
+.btn1 {
+    background-color:rgb(0, 113, 128) ;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.parang{
+    border: 15px solid rgb(165, 226, 235);
+    padding: 50px;
+    margin: 20px;
+}
+
+.parang-content{
+    max-width: 600px;
+}
+
+.prcol-content img {
+    width: 173%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: brightness(80%);
+    transition: all .3s cubic-bezier(.495, .05, .55, .95);
+    will-change: filter;
+}
+
+.parang-content h2{
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(214, 202, 31);
+}
+.btn1 {
+    background-color:rgb(0, 113, 128) ;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.tanjung{
+    border: 15px solid rgb(165, 226, 235);
+    padding: 50px;
+    margin: 20px;
+}
+
+.tanjung-content{
+    max-width: 600px;
+}
+
+.ttcol-content img {
+    width: 173%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: brightness(80%);
+    transition: all .3s cubic-bezier(.495, .05, .55, .95);
+    will-change: filter;
+}
+
+.tanjung-content h2{
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(214, 202, 31);
+}
+.btn1 {
+    background-color:rgb(0, 113, 128) ;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.pasih{
+    border: 15px solid rgb(165, 226, 235);
+    padding: 50px;
+    margin: 20px;
+}
+
+.pasih-content{
+    max-width: 600px;
+}
+
+.pucol-content img {
+    width: 173%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: brightness(80%);
+    transition: all .3s cubic-bezier(.495, .05, .55, .95);
+    will-change: filter;
+}
+
+.pasih-content h2{
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(214, 202, 31);
+}
+.btn1 {
+    background-color:rgb(0, 113, 128) ;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.tomini{
+    border: 15px solid rgb(165, 226, 235);
+    padding: 50px;
+    margin: 20px;
+}
+
+.tomini-content{
+    max-width: 600px;
+}
+
+.tbcol-content img {
+    width: 173%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: brightness(80%);
+    transition: all .3s cubic-bezier(.495, .05, .55, .95);
+    will-change: filter;
+}
+
+.tomini-content h2{
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(214, 202, 31);
+}
+.btn1 {
     background-color:rgb(0, 113, 128) ;
     padding: 10px 20px;
     border-radius: 15px;
