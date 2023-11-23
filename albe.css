@@ -253,3 +253,97 @@
     padding: 10px 20px;
     border-radius: 15px;
 }
+.merbabu{
+    border: 15px solid rgb(165, 226, 235);
+    padding: 50px;
+    margin: 20px;
+}
+
+.merbabu-content{
+    max-width: 600px;
+}
+
+.mbcol-content img {
+    width: 173%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: brightness(80%);
+    transition: all .3s cubic-bezier(.495, .05, .55, .95);
+    will-change: filter;
+}
+
+.merbabu-content h2{
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(214, 202, 31);
+}
+.btn1 {
+    background-color:rgb(0, 113, 128) ;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.merapi{
+    border: 15px solid rgb(165, 226, 235);
+    padding: 50px;
+    margin: 20px;
+}
+
+.merapi-content{
+    max-width: 600px;
+}
+
+.mrcol-content img {
+    width: 173%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: brightness(80%);
+    transition: all .3s cubic-bezier(.495, .05, .55, .95);
+    will-change: filter;
+}
+
+.merapi-content h2{
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(214, 202, 31);
+}
+.btn1 {
+    background-color:rgb(0, 113, 128) ;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.bromo{
+    border: 15px solid rgb(165, 226, 235);
+    padding: 50px;
+    margin: 20px;
+}
+
+.bromo-content{
+    max-width: 600px;
+}
+
+.brcol-content img {
+    width: 173%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: brightness(80%);
+    transition: all .3s cubic-bezier(.495, .05, .55, .95);
+    will-change: filter;
+}
+
+.bromo-content h2{
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(214, 202, 31);
+}
+.btn1 {
+    background-color:rgb(0, 113, 128) ;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
