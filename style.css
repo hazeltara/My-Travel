@@ -392,6 +392,7 @@ header.sticky{
     width: 200pxpx;
     font-family: 'PT Serif Caption', serif;
 }
+
 .tradisional-content{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(340px, auto));
