@@ -254,3 +254,66 @@
     padding: 10px 20px;
     border-radius: 15px;
 }
+.alaspurwo{
+    border: 15px solid rgb(104, 161, 226);
+    padding: 50px;
+    margin: 20px;
+}
+
+.alaspurwo-content{
+    max-width: 600px;
+}
+
+.apcol-content img {
+    width: 173%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: brightness(80%);
+    transition: all .3s cubic-bezier(.495, .05, .55, .95);
+    will-change: filter;
+}
+
+.apcol-content h2{
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(214, 202, 31);
+}
+.btn9 {
+    background-color:rgb(15, 62, 100) ;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.hotelbali{
+    border: 15px solid rgb(104, 161, 226);
+    padding: 50px;
+    margin: 20px;
+}
+
+.hotelbali-content{
+    max-width: 600px;
+}
+
+.hbcol-content img {
+    width: 173%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: brightness(80%);
+    transition: all .3s cubic-bezier(.495, .05, .55, .95);
+    will-change: filter;
+}
+
+.hbcol-content h2{
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(214, 202, 31);
+}
+.btn10 {
+    background-color:rgb(15, 62, 100) ;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
