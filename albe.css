@@ -347,3 +347,67 @@
     padding: 10px 20px;
     border-radius: 15px;
 }
+
+.cpm{
+    border: 15px solid rgb(165, 226, 235);
+    padding: 50px;
+    margin: 20px;
+}
+
+.cpm-content{
+    max-width: 600px;
+}
+
+.pmcol-content img {
+    width: 173%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: brightness(80%);
+    transition: all .3s cubic-bezier(.495, .05, .55, .95);
+    will-change: filter;
+}
+
+.cpm-content h2{
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(214, 202, 31);
+}
+.btn1 {
+    background-color:rgb(0, 113, 128) ;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.ciputra{
+    border: 15px solid rgb(165, 226, 235);
+    padding: 50px;
+    margin: 20px;
+}
+
+.ciputra-content{
+    max-width: 600px;
+}
+
+.cwcol-content img {
+    width: 173%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: brightness(80%);
+    transition: all .3s cubic-bezier(.495, .05, .55, .95);
+    will-change: filter;
+}
+
+.ciputra-content h2{
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(214, 202, 31);
+}
+.btn1 {
+    background-color:rgb(0, 113, 128) ;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
