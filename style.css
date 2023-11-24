@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'PT Serif Caption', serif;
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
@@ -252,7 +251,7 @@ header.sticky{
     font-size: var(--h2-font);
     line-height: 1.1;
     width: 200pxpx;
-    font-family: 'PT Serif Caption', serif;
+    font-family: 'Jua', sans-serif;
 }
 
 .gunung-content{
@@ -296,7 +295,7 @@ header.sticky{
 }
 .gtitle h4{
     font-size: var(--h2-font);
-    font-family: 'PT Serif Caption', serif;
+    font-family: 'Fredericka the Great', serif;
     line-height: 1.1;
     width: 200pxpx;
 }
@@ -344,7 +343,7 @@ header.sticky{
     font-size: var(--h2-font);
     line-height: 1.1;
     width: 200pxpx;
-    font-family: 'PT Serif Caption', serif;
+    font-family: 'Bungee Inline', sans-serif;
 }
 
 .modern-content{
@@ -390,7 +389,7 @@ header.sticky{
     font-size: var(--h2-font);
     line-height: 1.1;
     width: 200pxpx;
-    font-family: 'PT Serif Caption', serif;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 .tradisional-content{
@@ -436,7 +435,7 @@ header.sticky{
     font-size: var(--h2-font);
     line-height: 1.1;
     width: 200pxpx;
-    font-family: 'PT Serif Caption', serif;
+    font-family: 'Kalam', cursive;
 }
 
 .misteri-content{
@@ -482,7 +481,7 @@ header.sticky{
     font-size: var(--h2-font);
     line-height: 1.1;
     width: 200pxpx;
-    font-family: 'PT Serif Caption', serif;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 *{

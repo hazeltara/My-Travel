@@ -34,13 +34,13 @@ p {
 	
 	position: relative;
 	counter-increment: list;
-	max-width: 45rem;
+	max-width: 45rem; 
 	margin: 2rem auto;
 	padding: 2rem 1rem 1rem;
 	box-shadow: 0.1rem 0.1rem 1.5rem rgba(73, 73, 73, 0.3);
 	border-radius: 0.25rem;
 	overflow: hidden;
-	background-color: #254257;
+	background-color: #8ac8f5;
 }
 
 .list-komentar > li::before {
@@ -58,7 +58,7 @@ p {
 	display: flex;
 	align-items: baseline;
 	margin: 0 0 1rem;
-	color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 }
 
 h3::before {
@@ -72,8 +72,8 @@ h3::before {
 	content: counter(list);
 	padding: 1rem;
 	border-radius: 50%;
-	background-color: var(#072538);
-	color: #2a4c72;
+	background-color: var(#7ca8c4);
+	color: #79b8ff;
 }
 
 @media (min-width: 40em) {
