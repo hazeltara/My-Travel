@@ -1,0 +1,127 @@
+.senen{
+    border: 15px solid rgb(165, 226, 235);
+    padding: 50px;
+    margin: 20px;
+}
+
+.senen-content{
+    max-width: 600px;
+}
+
+.secol-content img {
+    width: 173%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: brightness(80%);
+    transition: all .3s cubic-bezier(.495, .05, .55, .95);
+    will-change: filter;
+}
+
+.senen-content h2{
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(214, 202, 31);
+}
+.btn1 {
+    background-color:rgb(165, 226, 235);
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.beringharjo{
+    border: 15px solid rgb(165, 226, 235);
+    padding: 50px;
+    margin: 20px;
+}
+
+.beringharjo-content{
+    max-width: 600px;
+}
+
+.bncol-content img {
+    width: 173%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: brightness(80%);
+    transition: all .3s cubic-bezier(.495, .05, .55, .95);
+    will-change: filter;
+}
+
+.beringharjo-content h2{
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(214, 202, 31);
+}
+.btn1 {
+    background-color:rgb(165, 226, 235);
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.mali1{
+    border: 15px solid rgb(165, 226, 235);
+    padding: 50px;
+    margin: 20px;
+}
+
+.mali1-content{
+    max-width: 600px;
+}
+
+.macol-content img {
+    width: 173%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: brightness(80%);
+    transition: all .3s cubic-bezier(.495, .05, .55, .95);
+    will-change: filter;
+}
+
+.mali1-content h2{
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(214, 202, 31);
+}
+.btn1 {
+    background-color:rgb(165, 226, 235);
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.mali2{
+    border: 15px solid rgb(165, 226, 235);
+    padding: 50px;
+    margin: 20px;
+}
+
+.mali2-content{
+    max-width: 600px;
+}
+
+.mlcol-content img {
+    width: 173%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: brightness(80%);
+    transition: all .3s cubic-bezier(.495, .05, .55, .95);
+    will-change: filter;
+}
+
+.mali2-content h2{
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(214, 202, 31);
+}
+.btn1 {
+    background-color:rgb(165, 226, 235);
+    padding: 10px 20px;
+    border-radius: 15px;
+}

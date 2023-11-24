@@ -477,7 +477,7 @@
 }
 
 .paris{
-    border: 15px solid rgb(235, 185, 165);
+    border: 15px solid rgb(165, 226, 235);
     padding: 50px;
     margin: 20px;
 }
@@ -503,7 +503,7 @@
     color: rgb(214, 202, 31);
 }
 .btn1 {
-    background-color:rgb(214, 127, 105);
+    background-color:rgb(165, 226, 235);
     padding: 10px 20px;
     border-radius: 15px;
 }
