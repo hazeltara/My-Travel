@@ -166,8 +166,12 @@ include("config.php");
                 echo $row_sections['email'];
                 echo $row_sections['komentar'];
                 echo "<br>"; -->
-                <li style="--i: 1">
-                    <h3><?php echo $row_sections['name'] ?></h3>
+                <li>
+                    <h3><?php echo $row_sections['name'] ?>
+                    <?php echo ("<br>") ?>
+                    <?php echo $row_sections['email'] ?>
+                
+                    </h3>
                     <p><?php echo $row_sections['komentar'] ?></p>
                 </li>
                 <?php
