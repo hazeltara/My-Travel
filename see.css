@@ -24,11 +24,10 @@
     font-weight: 700;
     color: rgb(214, 202, 31);
 }
-.btn1 {
-    background-color:rgb(0, 113, 128) ;
-    padding: 10px 20px;
-    border-radius: 15px;
-}
+.kyakya-content  {
+    font-size: 50rem;
+    text-indent: 50px;
+    }
 
 .wijilan{
     border: 15px solid rgb(165, 226, 235);
@@ -56,11 +55,10 @@
     font-weight: 700;
     color: rgb(214, 202, 31);
 }
-.btn2 {
-    background-color:rgb(0, 113, 128) ;
-    padding: 10px 20px;
-    border-radius: 15px;
-}
+.wijilan-content  {
+    font-size: 50rem;
+    text-indent: 50px;
+    }
 
 .suryakencana{
     border: 15px solid rgb(165, 226, 235);
@@ -88,11 +86,10 @@
     font-weight: 700;
     color: rgb(214, 202, 31);
 }
-.btn3 {
-    background-color:rgb(0, 113, 128) ;
-    padding: 10px 20px;
-    border-radius: 15px;
-}
+.suryakencana-content  {
+    font-size: 50rem;
+    text-indent: 50px;
+    }
 
 .tanggerang{
     border: 15px solid rgb(165, 226, 235);
@@ -120,11 +117,10 @@
     font-weight: 700;
     color: rgb(214, 202, 31);
 }
-.btn4 {
-    background-color:rgb(0, 113, 128) ;
-    padding: 10px 20px;
-    border-radius: 15px;
-}
+.tanggerang-content  {
+    font-size: 50rem;
+    text-indent: 50px;
+    }
 
 .galabo{
     border: 15px solid rgb(165, 226, 235);
@@ -152,11 +148,10 @@
     font-weight: 700;
     color: rgb(214, 202, 31);
 }
-.btn5 {
-    background-color:rgb(0, 113, 128) ;
-    padding: 10px 20px;
-    border-radius: 15px;
-}
+.galabo-content  {
+    font-size: 50rem;
+    text-indent: 50px;
+    }
 
 .losari{
     border: 15px solid rgb(165, 226, 235);
