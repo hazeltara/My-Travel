@@ -180,11 +180,10 @@
     font-weight: 700;
     color: rgb(214, 202, 31);
 }
-.btn6 {
-    background-color:rgb(0, 113, 128) ;
-    padding: 10px 20px;
-    border-radius: 15px;
-}
+.losari-content  {
+    font-size: 50rem;
+    text-indent: 50px;
+    }
 
 .lawangsewu{
     border: 15px solid rgb(104, 161, 226);
@@ -212,11 +211,10 @@
     font-weight: 700;
     color: rgb(214, 202, 31);
 }
-.btn1 {
-    background-color:rgb(15, 62, 100) ;
-    padding: 10px 20px;
-    border-radius: 15px;
-}
+.lawangsewu-content  {
+    font-size: 50rem;
+    text-indent: 50px;
+    }
 
 .trunyan{
     border: 15px solid rgb(104, 161, 226);
@@ -244,11 +242,10 @@
     font-weight: 700;
     color: rgb(214, 202, 31);
 }
-.btn1 {
-    background-color:rgb(15, 62, 100) ;
-    padding: 10px 20px;
-    border-radius: 15px;
-}
+.trunyan-content  {
+    font-size: 50rem;
+    text-indent: 50px;
+    }
 .alaspurwo{
     border: 15px solid rgb(104, 161, 226);
     padding: 50px;
@@ -275,11 +272,10 @@
     font-weight: 700;
     color: rgb(214, 202, 31);
 }
-.btn1 {
-    background-color:rgb(15, 62, 100) ;
-    padding: 10px 20px;
-    border-radius: 15px;
-}
+.alaspurwo-content  {
+    font-size: 50rem;
+    text-indent: 50px;
+    }
 
 .hotelbali{
     border: 15px solid rgb(104, 161, 226);
@@ -307,11 +303,10 @@
     font-weight: 700;
     color: rgb(214, 202, 31);
 }
-.btn1 {
-    background-color:rgb(15, 62, 100) ;
-    padding: 10px 20px;
-    border-radius: 15px;
-}
+.hotelbali-content  {
+    font-size: 50rem;
+    text-indent: 50px;
+    }
 
 .gkawi{
     border: 15px solid rgb(104, 161, 226);
@@ -339,11 +334,10 @@
     font-weight: 700;
     color: rgb(214, 202, 31);
 }
-.btn1 {
-    background-color:rgb(15, 62, 100) ;
-    padding: 10px 20px;
-    border-radius: 15px;
-}
+.gkawi-content  {
+    font-size: 50rem;
+    text-indent: 50px;
+    }
 
 .tafm{
     border: 15px solid rgb(165, 226, 235);
@@ -371,8 +365,7 @@
     font-weight: 700;
     color: rgb(214, 202, 31);
 }
-.btn1 {
-    background-color:rgb(0, 113, 128) ;
-    padding: 10px 20px;
-    border-radius: 15px;
-}
+.tafm-content  {
+    font-size: 50rem;
+    text-indent: 50px;
+    }
