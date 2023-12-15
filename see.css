@@ -55,10 +55,11 @@
     font-weight: 700;
     color: rgb(214, 202, 31);
 }
-.wijilan-content  {
-    font-size: 50rem;
-    text-indent: 50px;
-    }
+.btn1 {
+    background-color:rgb(165, 226, 235);
+    padding: 10px 20px;
+    border-radius: 15px;
+}
 
 .suryakencana{
     border: 15px solid rgb(165, 226, 235);
@@ -303,7 +304,7 @@
     font-weight: 700;
     color: rgb(214, 202, 31);
 }
-.hotelbali-content  {
+.hotelbali-content {
     font-size: 50rem;
     text-indent: 50px;
     }
@@ -334,7 +335,7 @@
     font-weight: 700;
     color: rgb(214, 202, 31);
 }
-.gkawi-content  {
+.gkawi-content {
     font-size: 50rem;
     text-indent: 50px;
     }
@@ -365,7 +366,7 @@
     font-weight: 700;
     color: rgb(214, 202, 31);
 }
-.tafm-content  {
+.tafm-content { 
     font-size: 50rem;
     text-indent: 50px;
     }
